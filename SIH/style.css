@@ -1,0 +1,33 @@
+/* body{
+background-color: #aae2b2;
+} */
+.container{
+  background: white;
+  box-shadow: 10px 10px	#33877c;
+  width:640px;
+}
+.parallax {
+  background-image: url("mbck.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  width:520px;
+  text-align:center;
+}
+.form-inline{
+padding-left: 70px;
+}
+#error{
+  width:50%;
+  margin:5px auto;
+  height:30px;
+  border:1px solid #FF0000;
+  background: #FFb9b8;
+  color:#ff0000;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <title></title>
+    <style media="screen">
+      p{
+        font-size:18px;
+      }
+      h4{
+        color:	#7bd666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">COMPANYNAME</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.php"><span class="glyphicon glyphicon-user"></span> GO BACK</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="parallax"></div>
+    <div class="row">
+      <div class="col-sm-3" style= "font-size:20px;">
+
+
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a style="color:black;" class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                <b> previously uploaded questions and Score</b>
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body" style="font-size:16px;">
+                SET
+                <br>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="card">
+            <div class="card-header">
+              <a style="color:black;" class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                <b>  Go and upload new questions</b>
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <form class="form-inline" action="contribute.php" method="post">
+                  <br>
+
+                  <input type="submit" class = "btn btn-warning" name="submit" value="FINE">
+                  <br>
+                  <br>
+                </form>
+              </div>
+            </div>
+          </div>
+          <br><br>
+
+        </div>
+
+      </div>
+    <div class="col-sm-9">
+      <br><h4>RULE 1</h4><br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.</p><br><h4>RULE 2</h4><br><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo</p><br><h4>RULE 3</h4><br> <p>consequat. Duis aute  reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><h4>RULE 4</h4><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua.</p><br><h4>RULE 5</h4><br><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo</p><br><h4>RULE 6</h4><br><p> consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+        </div>
+        <div class="parallax"></div>
+</body>
+</html>

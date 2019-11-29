@@ -1,0 +1,22 @@
+h1{
+  color: #7bd666;
+  background-color:#e1e6ea;
+}
+h2{
+  color: #7bd666;
+  background-color:#e1e6ea;
+}
+.parallax {
+  background-image: url("mbck.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col-sm-3{
+  background: url(col.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
